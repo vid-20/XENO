@@ -106,8 +106,4 @@ GROUP BY c.id ORDER BY c.id;
 sent to twice. But 9101 has no parent and nothing retries off it, so it's
 standalone, and the row count (7) is what actually gets used, not 6.
 
-## One note on the data
 
-`data/comm_log.db` is untouched — same dataset as given, nothing edited to
-force the number. The 22 comes entirely from the filtering/dedup logic in
-the SQL, not from changing any rows.
