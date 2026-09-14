@@ -6,7 +6,7 @@ reconciles that number from the raw campaign and send-log data.
 ## Contents
 
 ```
-comm-log-reconciliation/
+xeno/
 ├── README.md            (this file)
 ├── RECONCILIATION.md    the bridge, the reasoning, what surprised me
 ├── sql/
